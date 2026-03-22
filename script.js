@@ -159,15 +159,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. Smooth Anchor Scrolling (using Lenis)
     navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
-            e.preventDefault();
             const targetId = link.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
             
-            if (targetElement) {
-                lenis.scrollTo(targetElement, {
-                    offset: -68, // Account for navbar height
-                    duration: 1.5
-                });
+            // Only target internal anchor links
+            if (targetId && targetId.startsWith('#')) {
+                e.preventDefault();
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    lenis.scrollTo(targetElement, {
+                        offset: -68, // Account for navbar height
+                        duration: 1.5
+                    });
+                }
             }
         });
     });
