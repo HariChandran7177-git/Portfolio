@@ -266,10 +266,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const commands = {
         help: "AVAILABLE COMMANDS: help, whoami, skills, projects, contact, certification, clear, exit",
         whoami: "G. HARI CHANDRAN — CSE ENGINEER @ LPU PUNJAB. CODE. ANALYZE. PERFORM.",
-        skills: "TECH STACK: C++, PYTHON, JS, ML, DSA, DBMS, WEB DEV.",
-        projects: "PROJECTS: 1. SMART RECOVERY SYSTEM (AI) 2. ECG ANOMALY DETECTION (ML). GITHUB: github.com/HariChandran7177",
+        skills: "TECH STACK: C++, PYTHON, SQL, FASTAPI, LANGGRAPH, RAG, QDRANT, GROQ API, STREAMLIT.",
+        projects: "PROJECTS: 1. MULTI-AGENT RESEARCH ASSISTANT (AGENTIC AI) 2. BONE CANCER DETECTION (CNN/DL). GITHUB: github.com/HariChandran7177",
         contact: "EMAIL: grandhiharichandran@gmail.com | LI: in/harichandrangrandhi",
-        certification: "CERTIFICATIONS: Google Networking, UAB Digital Systems, Google Tech Support.",
+        certification: "CERTIFICATIONS: Agentic AI Foundation Associate (Oracle), Generative AI with LLMs (DeepLearning.AI/Coursera).",
         exit: () => { terminal.style.display = 'none'; return "LOGGING OUT..."; },
         clear: () => { termOutput.innerHTML = ''; return ""; }
     };
@@ -426,11 +426,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const radius = Math.min(centerX, centerY) * 0.8;
 
         const data = [
-            { label: "FRONTEND", value: 0.65 },
-            { label: "BACKEND", value: 0.60 },
-            { label: "ML / AI", value: 0.75 },
-            { label: "TOOLS", value: 0.70 },
-            { label: "DSA", value: 0.72 },
+            { label: "LANGUAGES", value: 0.75 },
+            { label: "WEB/BACKEND", value: 0.70 },
+            { label: "AGENTIC AI", value: 0.80 },
+            { label: "DB & TOOLS", value: 0.70 },
+            { label: "ACADEMICS", value: 0.72 },
             { label: "SOFT SKILLS", value: 0.85 }
         ];
 
