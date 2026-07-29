@@ -267,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
         help: "AVAILABLE COMMANDS: help, whoami, skills, projects, contact, certification, clear, exit",
         whoami: "G. HARI CHANDRAN — CSE ENGINEER @ LPU PUNJAB. CODE. ANALYZE. PERFORM.",
         skills: "TECH STACK: C++, PYTHON, SQL, FASTAPI, LANGGRAPH, RAG, QDRANT, GROQ API, STREAMLIT.",
-        projects: "PROJECTS: 1. MULTI-AGENT RESEARCH ASSISTANT (AGENTIC AI) 2. BONE CANCER DETECTION (CNN/DL). GITHUB: github.com/HariChandran7177",
+        projects: "PROJECTS: 1. MULTI-AGENT RESEARCH ASSISTANT (AGENTIC AI) 2. BONE CANCER DETECTION (CNN/DL) 3. SMART LOAN RECOVERY SYSTEM (C++/DSA). GITHUB: github.com/HariChandran7177-git",
         contact: "EMAIL: grandhiharichandran@gmail.com | LI: in/harichandrangrandhi",
         certification: "CERTIFICATIONS: Agentic AI Foundation Associate (Oracle), Generative AI with LLMs (DeepLearning.AI/Coursera).",
         exit: () => { terminal.style.display = 'none'; return "LOGGING OUT..."; },
